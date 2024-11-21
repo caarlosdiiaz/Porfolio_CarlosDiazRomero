@@ -1,0 +1,28 @@
+{
+    "profile": {
+        "rol": "Back-end developer",
+        "description": "I am a backend developer passionate about creating scalable and efficient solutions. With experience in technologies such as JAVA, C#, and Python, I am always focused on improving performance and software quality."
+    },
+    "trainings":{
+        "title": "Trainings",
+        "first-training-title":"DAM",
+        "first-training-dates":"Septembre 2023 - June 2025",
+        "first-training-description":"Ongoing Education CFGS DAM",
+        "second-training-title":"C# and .NET",
+        "second-training-dates":"Novembre 2024 - Decembre 2024",
+        "second-training-description":"Academic Background on OpenWebinars"
+    },
+    "projects":{
+        "first-project-name":"React videogame",
+        "first-project-description":"Project developed with React + Vite. <br> This project is about a turn-based fighting game where each character has unique stats.",
+        "second-project-name":"JavaFX videogame",
+        "second-project-description":"Interactive fighting videogame in JavaFX"
+    },
+    "technologies":{
+        "first-tech":"Multiplataform"
+    },
+    "buttons":{
+        "first-button":"Code",
+        "second-button":"Demo"
+    }
+}

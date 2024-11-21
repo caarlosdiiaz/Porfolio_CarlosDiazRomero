@@ -4,10 +4,186 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link de estilos de cloudflare -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Portfolio</title>
+    <title>CarlosDiaz</title>
   </head>
-  <body>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img 
+           id="toggle-icon"
+           src="assets/icons/moon.svg"
+           alt="dark mode icon"
+           class="toggle-theme_icon">
+          <p id="toggle-text" 
+          class="toggle-theme_text">Dark mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags_item" data-language="es">
+          <img src="assets/icons/spanish.svg" alt="">
+        </div>
+        <div class="flags_item" data-language="en">
+          <img src="assets/icons/english.svg" alt="">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item-blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors_item colors_item-green"></div>
+        
+        <div data-color="hsl(276, 84%, 56%)" class="colors_item colors_item-purple"></div>
+        
+        <div data-color="hsl(46, 84%, 56%)" class="colors_item colors_item-orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Tarjeta del perfil -->
+         <article class="card card--profile">
+          <div class="card_image-container">
+            <!-- Container de imagen de perfil -->
+            <img src="assets/images/miavatar.jpeg" alt="avatar Carlos">
+          </div>
+          <div class="card_header">
+            <!-- Container de nombre y titulo -->
+            <h2 class="card_title">Carlos Díaz</h2>
+          <p class="card_subtitle" data-section="profile"data-value="rol"></p>
+          </div>
+          <div class="card_body">
+            <!-- Container de datos personales -->
+             <div class="card_link">
+              <!-- Link directo a contacto por correo -->
+               <i class="fas fa-envelope icon"></i>
+              <a href="mailto:diazromerocarlos0@gmail.com">
+                diazromerocarlos0@gmail.com</a>
+             </div>
+             <div class="card_link">
+              <!-- Link directo a contacto por teléfono -->
+               <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:617148135">
+                +34 617148135</a>
+             </div>
+             <p class="card_text" data-section="profile" data-value="description"></p>
+          </div>
+         </article>
+         <article class="card card-experience">
+          <h2 class="card_title" data-section="trainings" data-value="title"></h2>
+          <div class="experience">
+            <div class="experience_info">
+              <p class="experience_time" data-section="trainings" data-value="first-training-dates"></p>
+              <h3 class="experience_job" data-section="trainings" data-value="first-training-title"></h3>
+              <p class="experience_description" data-section="trainings" data-value="first-training-description"></p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience_info">
+              <p class="experience_time" data-section="trainings" data-value="second-training-dates">
+              <h3 class="experience_job" data-section="trainings" data-value="second-training-title"></h3>
+              <p class="experience_description" data-section="trainings" data-value="second-training-description"></p>
+            </div>
+          </div>
+        <!--</article>
+        <artice class="card card-hobbies">
+          <h2 class="card_title">Hobbies</h2>
+          <div class="card_image-container">
+            <img src="assets/images/gym.jpeg" alt="ir al gimnasio">
+          </div>
+          <h3 class="hobbie_title">Ir al gimnasio</h3>
+          <p class="card_text">Ir al gimnasio es mi momento de relax del dia, donde
+            me olvido de todo y somos solamente mis cascos y yo
+          </p>
+        </artice>-->
+      </section>
+      <!--Columna de la derecha, niveles, etc...-->
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card_title" data-section="technologies" data-value="first-tech"></h2>
+          <div class="skills">
+            <div class="skills_item">
+              <p class="skills_tech">JAVA</p>
+              <div class="skills_bar skills_bar--50" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">Python</p>
+              <div class="skills_bar skills_bar--20" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">C#</p>
+              <div class="skills_bar skills_bar--20" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">Kotlin</p>
+              <div class="skills_bar skills_bar--20" ></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card_title">FrontEnd</h2>
+          <div class="skills">
+            <div class="skills_item">
+              <p class="skills_tech">HTML</p>
+              <div class="skills_bar skills_bar--20" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">CSS</p>
+              <div class="skills_bar skills_bar--20" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">JavaScript</p>
+              <div class="skills_bar skills_bar--30" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">PHP</p>
+              <div class="skills_bar skills_bar--50" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">React</p>
+              <div class="skills_bar skills_bar--20" ></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card_title">BBDD</h2>
+          <div class="skills">
+            <div class="skills_item">
+              <p class="skills_tech">PostgreSQL</p>
+              <div class="skills_bar skills_bar--70" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">MySQL</p>
+              <div class="skills_bar skills_bar--50" ></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">MongoDB</p>
+              <div class="skills_bar skills_bar--40" ></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card-project">
+          <div class="projects_image-container">
+            <img src="assets/images/videojuego.jpg" alt="Videojuego" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag"># REACT</span>
+              <span class="project_tag"># VITE</span>
+              <span class="project_tag"># CSS</span>
+            </div>
+            <h2 class="card_title" data-section="projects" data-value="first-project-name"></h2>
+            <p class="card_text" data-section="projects" data-value="first-project-description"></p>
+            <div class="buttons">
+              <a href="https://github.com/caarlosdiiaz/Videojuego_Peleas_React" class="button button-primary" data-section="buttons" data-value="first-button"></a>
+              <a href="#" class="button button-ghost" data-section="buttons" data-value="second-button"></a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
     <script src="js/scripts.js"></script>
   </body>
 </html>
+<!--El video lo paré en 12:00-->
