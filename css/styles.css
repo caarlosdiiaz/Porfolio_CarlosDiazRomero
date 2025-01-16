@@ -170,6 +170,7 @@ body.dark {
 }
 
 .card_title{
+    color: var(--primary-color);
     margin: 0;
     margin-bottom: 1em;
     font-size: 1.2rem;
