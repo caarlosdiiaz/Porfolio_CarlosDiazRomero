@@ -1,8 +1,8 @@
 :root {
-    --primary-color: hsl(214, 84%, 56%); /* Azul primario */
-    --text-color: hsl(0, 0%, 31%);      /* Gris oscuro para texto */
-    --bg-color: hsl(0, 0%, 90%);        /* Gris claro para fondo */
-    --bg-card-color: hsl(0, 0%, 98%);   /* Color de fondo de las tarjetas */
+    --primary-color: hsl(214, 84%, 56%);
+    --text-color: hsl(0, 0%, 31%);
+    --bg-color: hsl(0, 0%, 90%);
+    --bg-card-color: hsl(0, 0%, 98%);
     --transition: color 1s, border 1s, background-color 1s ease-in-out;
     --border-radius:0.4em;
     --skills-bar-length: 0%;
