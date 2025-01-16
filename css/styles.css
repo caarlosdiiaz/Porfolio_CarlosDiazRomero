@@ -200,6 +200,9 @@ body.dark {
 
 .skills{
     padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .skills_item{
@@ -208,59 +211,9 @@ body.dark {
     justify-content: space-between;
 }
 
-.skills_bar,
-.skills_bar::after{
-    position: relative;
-    width: 175px;
-    height: 8px;
-    background-color: #888;
-    border-radius: var(--border-radius);
-    overflow: hidden;
-}
-
-.skills_bar::after{
-    content: '';
-    position: absolute;
-    left: -175px;
-    background-color: var(--primary-color);
-    transition: var(--transition);
-    animation: skills-bar-fill 2s ease-in-out forwards;
-}
-
-.skills_bar--10::after{
-    --skills-bar-length:10%
-}
-
-.skills_bar--20::after{
-    --skills-bar-length:20%
-}
-
-.skills_bar--30::after{
-    --skills-bar-length:30%
-}
-
-.skills_bar--40::after{
-    --skills-bar-length:40%
-}
-
-.skills_bar--50::after{
-    --skills-bar-length:50%
-}
-
-.skills_bar--60::after{
-    --skills-bar-length:60%
-}
-
-.skills_bar--70::after{
-    --skills-bar-length:70%
-}
-
-.skills_bar--80::after{
-    --skills-bar-length:80%
-}
-
-.skills_bar--90::after{
-    --skills-bar-length:90%
+.tech_img{
+    min-width: 100px;
+    height: auto;
 }
 
 .experience{

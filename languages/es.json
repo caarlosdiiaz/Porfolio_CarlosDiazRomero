@@ -14,12 +14,10 @@
     },
     "projects":{
         "first-project-name":"Videojuego en React",
-        "first-project-description":"Proyecto desarrollado en React + Vite. <br> Éste proyecto trata sobre un videojuego de pelea por turnos donde cada personaje tiene unas estadísticas unicas",
-        "second-project-name":"Videojuego en JavaFX",
-        "second-project-description":"Videojuego de peleas interactivo en JavaFX"
+        "first-project-description":"Proyecto desarrollado en React + Vite. <br> Éste proyecto trata sobre un videojuego de pelea por turnos donde cada personaje tiene unas estadísticas unicas"
     },
     "technologies":{
-        "first-tech":"Multiplataformas"
+        "third-tech": "Bases de datos"
     },
     "buttons":{
         "first-button":"Código",
