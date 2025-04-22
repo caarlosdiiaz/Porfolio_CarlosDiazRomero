@@ -8,9 +8,9 @@
         "first-training-title":"DAM",
         "first-training-dates":"Septembre 2023 - June 2025",
         "first-training-description":"Ongoing Education CFGS DAM",
-        "second-training-title":"C# and .NET",
-        "second-training-dates":"Novembre 2024 - Decembre 2024",
-        "second-training-description":"Academic Background on OpenWebinars"
+        "second-training-title":"Spring Boot",
+        "second-training-dates":"February 2025 - June 202",
+        "second-training-description":"Studying course on udemy.com focused on creating REST APIs, implementing security, error handling, etc."
     },
     "projects":{
         "first-project-name":"React videogame",
