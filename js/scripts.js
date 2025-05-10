@@ -44,6 +44,7 @@ if (!language) {
 const changeLanguage = async (language) => {
     const requestJson = await fetch(`./languages/${language}.json`);
     const text = await requestJson.json();
+    console.log(text);
 
     // Buscar todos los elementos que necesitan ser cambiados
     const textsToChange = document.querySelectorAll("[data-section]");
