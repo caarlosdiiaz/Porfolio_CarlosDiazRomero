@@ -14,7 +14,9 @@
     },
     "projects":{
         "first-project-name":"React videogame",
-        "first-project-description":"Project developed with React + Vite. <br> This project is about a turn-based fighting game where each character has unique stats."
+        "first-project-description":"Project developed with React + Vite. <br> This project is about a turn-based fighting game where each character has unique stats.",
+        "second-project-name": "Final DAM Project",
+"second-project-description": "The project was developed to monitor the times students at the center go to the bathroom. <br> The API in Spring connects to a PostgreSQL database. <br> The frontend was built with Ionic + React + TypeScript. <br> I used JSPDF to export the records to PDF."
     },
     "technologies":{
         "third-tech": "Database"

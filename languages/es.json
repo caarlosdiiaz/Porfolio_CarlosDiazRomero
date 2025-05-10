@@ -14,7 +14,9 @@
     },
     "projects":{
         "first-project-name":"Videojuego en React",
-        "first-project-description":"Proyecto desarrollado en React + Vite. <br> Éste proyecto trata sobre un videojuego de pelea por turnos donde cada personaje tiene unas estadísticas unicas"
+        "first-project-description":"Proyecto desarrollado en React + Vite. <br> Éste proyecto trata sobre un videojuego de pelea por turnos donde cada personaje tiene unas estadísticas unicas",
+        "second-project-name":"Proyecto final DAM",
+        "second-project-description":"El proyecto fué desarrollado para llevar un monitoreo de las veces que van al baño los alumnos del centro, <br> La api en spring que se conecta a una base de datos postgreSQL. <br> El frontend fué hecho en ionic + react + typescript. <br> Utilicé JSPDF para exportar los registros a pdf."
     },
     "technologies":{
         "third-tech": "Bases de datos"
